@@ -83,10 +83,10 @@
                 Margin="40,0"
                 Orientation="Horizontal"
                     VerticalOptions="CenterAndExpand">
-                <Button
-                   Command="{Binding LoginCommand}"
+                <Button               
                    BackgroundColor=" Orange"
                    BorderRadius="10"
+                   Command="{Binding LoginCommand}"
                    HeightRequest="40"
                    HorizontalOptions="FillAndExpand"
                    IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
@@ -97,6 +97,7 @@
                 <Button
                    BackgroundColor="Silver"
                    BorderRadius="10"
+                   Command="{Binding RegisterCommand}"
                    HeightRequest="40"
                    HorizontalOptions="FillAndExpand"
                    IsEnabled="{Binding IsEnabled, Mode=TwoWay}"

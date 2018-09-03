@@ -7,7 +7,7 @@
     using GalaSoft.MvvmLight.Command;
     using Views;
 	using Helpers;
-
+    using System;
 
     public class LoginViewModel : BaseViewModel
     {
@@ -107,7 +107,7 @@
             }
 
             var token = await this.apiService.GetToken(
-                "http://landsapi0-001-site.htempurl.com",
+                "http://landsapi0-001-site1.htempurl.com",
                 this.Email,
                 this.Password);
 
@@ -155,8 +155,19 @@
             this.Email = string.Empty;
             this.Password = string.Empty;
 
+        }
+        public ICommand RegisterCommand
+        {
+            get
+            {
+                return new RelayCommand(Register);
+            }
+        }
 
-
+        private async void Register()
+        {
+            MainViewModel.GetInstance().Register = new RegisterViewModel();
+            await Application.Current.MainPage.Navigation.PushAsync(new RegisterPage());
         }
         #endregion
         //Veficando se está ok
