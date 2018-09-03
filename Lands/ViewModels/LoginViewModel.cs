@@ -107,7 +107,7 @@
             }
 
             var token = await this.apiService.GetToken(
-                "http://webapixamarin-001-site1.atempurl.com",
+                "http://landsapi0-001-site.htempurl.com",
                 this.Email,
                 this.Password);
 
