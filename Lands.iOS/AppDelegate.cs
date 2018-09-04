@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using FFImageLoading.Forms.Touch;
 using Foundation;
+using ImageCircle.Forms.Plugin.iOS;
 using UIKit;
 
 namespace Lands.iOS
@@ -23,7 +24,9 @@ namespace Lands.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+
             CachedImageRenderer.Init();
+            ImageCircleRenderer.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

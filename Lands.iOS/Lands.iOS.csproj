@@ -347,5 +347,7 @@
     <BundleResource Include="Resources\ic_exitg.png" />
     <BundleResource Include="Resources\ic_charg.png" />
     <BundleResource Include="Resources\ic_settingsg.png" />
+    <BundleResource Include="Resources\ic_launcher_menu.png" />
+    <BundleResource Include="Resources\no_image.png" />
   </ItemGroup>
 </Project>

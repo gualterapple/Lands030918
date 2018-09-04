@@ -310,6 +310,8 @@
     <AndroidResource Include="Resources\drawable\ic_exitg.png" />
     <AndroidResource Include="Resources\drawable\ic_charg.png" />
     <AndroidResource Include="Resources\drawable\ic_settingsg.png" />
+    <AndroidResource Include="Resources\drawable\ic_launcher_menu.png" />
+    <AndroidResource Include="Resources\drawable\no_image.png" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
