@@ -198,6 +198,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Xam.Plugin.Media">
+      <Version>4.0.1.5</Version>
+    </PackageReference>
+    <PackageReference Include="Xam.Plugins.Forms.ImageCircle">
+      <Version>3.0.0.5</Version>
+    </PackageReference>
     <PackageReference Include="Xam.Plugins.Settings">
       <Version>3.1.1</Version>
     </PackageReference>
@@ -307,6 +313,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <ProjectReference Include="..\Lands.Domain\Lands.Domain.csproj">
+      <Project>{6c3309a1-0c03-4230-92b0-e605803cd0d3}</Project>
+      <Name>Lands.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Lands\Lands.csproj">
       <Project>{3508BAF0-05D2-492F-AF2F-1565373FCF30}</Project>
       <Name>Lands</Name>
