@@ -106,8 +106,9 @@
                 return;
             }
 
+            var apiSecurity = Application.Current.Resources["APISecurity"].ToString();
             var token = await this.apiService.GetToken(
-                "http://landsapi0-001-site1.htempurl.com",
+                apiSecurity,
                 this.Email,
                 this.Password);
 

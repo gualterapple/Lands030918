@@ -73,9 +73,9 @@ namespace Lands.ViewModels
 			}
 
 
-
-			var response = await this.apiService.GetList<Land>(
-				"http://restcountries.eu",
+            var apiLands = Application.Current.Resources["APILands"].ToString();
+            var response = await this.apiService.GetList<Land>(
+                apiLands,
 				"/rest",
 				"/v2/all");
 

@@ -9,7 +9,12 @@
         
         <!-- DICIONÁRIO DE RECURSOS-->
         <ResourceDictionary>
+                        <!-- Parameters -->
             <infra:InstanceLocator x:Key="Locator"/>
+
+            <!-- Parameters -->
+            <x:String x:Key="APILands">http://restcountries.eu</x:String>
+            <x:String x:Key="APISecurity">http://landsapi0-001-site1.htempurl.com</x:String>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
