@@ -6,6 +6,7 @@ namespace Lands.ViewModels
     using System.Collections.ObjectModel;
     using Models;
     using Helpers;
+    using Lands.Domain;
 
     public class MainViewModel
     {
@@ -16,6 +17,11 @@ namespace Lands.ViewModels
             set;
         }
         public ObservableCollection<MenuItemViewModel> Menus
+        {
+            get;
+            set;
+        }
+        public User User
         {
             get;
             set;

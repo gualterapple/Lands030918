@@ -15,6 +15,12 @@
                 Source="terra"
                 WidthRequest="100">             
             </Image>
+            <Label              
+                FontSize="Large"
+                FontAttributes="Bold"
+                Text="{Binding User.FullName, StringFormat='Ola: {0}'}"
+                TextColor="#999999">
+            </Label>
             <ListView
                 BackgroundColor="White"
                 ItemsSource="{Binding Menus}"
