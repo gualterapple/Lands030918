@@ -313,7 +313,9 @@
     <AndroidResource Include="Resources\drawable\ic_launcher_menu.png" />
     <AndroidResource Include="Resources\drawable\no_image.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\xml\file_paths.xml" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Lands.Domain\Lands.Domain.csproj">
       <Project>{6c3309a1-0c03-4230-92b0-e605803cd0d3}</Project>
