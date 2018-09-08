@@ -196,6 +196,9 @@
     <Reference Include="Lands">
       <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
     </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>..\..\..\..\..\Musicas Deejay\50 cent novo\System.Configuration.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xam.Plugin.Media">
