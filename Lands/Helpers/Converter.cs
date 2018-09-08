@@ -20,7 +20,7 @@ namespace Lands.Helpers
                 LastName = user.LastName,
                 Telephone = user.Telephone,
                 UserId = user.UserId,
-                UserTypeId = user.UserType,
+                UserTypeId = user.UserTypeId,
             };
     }
     }
