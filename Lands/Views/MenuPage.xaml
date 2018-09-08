@@ -18,7 +18,7 @@
             <Label              
                 FontSize="Large"
                 FontAttributes="Bold"
-                Text="{Binding User.FullName, StringFormat='Ola: {0}'}"
+                Text="{Binding User.FullName, StringFormat='{0}'}"
                 TextColor="#999999">
             </Label>
             <ListView
